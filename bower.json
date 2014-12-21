@@ -1,8 +1,8 @@
 {
-  "name": "angular-phonecat",
-  "description": "A starter project for AngularJS",
+  "name": "babajidefowotade-portfolio",
+  "description": "A starter project for the portfolio",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-phonecat",
+  "homepage": "https://github.com/andela-bfowotade/portfolio",
   "license": "MIT",
   "private": true,
   "dependencies": {

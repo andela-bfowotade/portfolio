@@ -1,14 +1,17 @@
   'use strict';
 var appPortfolio = angular.module('appPortfolio', [
       'ngRoute',
-      'projectApp'
+      'ngResource',
+      'projectApp',
+      'AppFilter',
+      'loadScreenshotService'
   ]);
 
 appPortfolio.config(function($routeProvider){
   $routeProvider
   .when('/home', 
     {
-      controller: 'projectDataCtrl',
+      controller: 'ProjectDataCtrl',
       templateUrl: 'partials/home.html'
     })
   .when('/about',
@@ -23,13 +26,18 @@ appPortfolio.config(function($routeProvider){
     })
   .when('/portfolio',
     {
-      controller: 'CafeController',
+      controller: 'ProjectDataCtrl',
       templateUrl: 'partials/portfolio.html'
     })
   .when('/contact',
     {
       controller: 'CafeController',
       templateUrl: 'partials/contact.html'
+    })
+  .when('/pt-detail/:project_id',
+    {
+      controller: 'ProjectDetailCtrl',
+      templateUrl: 'partials/portfolio-item.html'
     })
   .otherwise({ redirectTo: '/home' })
 

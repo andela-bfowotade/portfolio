@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "project_id": "googleclone",
+    "title": "Google Clone",
+    "subtitle": "A display of HTML CSS Skillset",
+    "summary": "Inspired by The Giant of the Web(Google). Here's a simple clone of the website. Google’s mission is to organize the world’s information and make it universally accessible and useful.",
+    "img": "img/projectimg/700x450.gif"
+
+  },
+  {
+    "id": 2,
+    "project_id": "jobseeker",
+    "title": "Job Seeker Clone",
+    "subtitle": "A display of HTML CSS and Responsiveness",
+    "summary": "Clone of an Arabic JOb Seeking website, adding the responsive feature, to render awesomely on mobile devices",
+    "img": "img/projectimg/700x450.gif"
+
+  },
+  {
+    "id": 3,
+    "project_id": "hotorcold",
+    "title": "Hot or Cold App",
+    "subtitle": "Simple Javascript Game",
+    "summary": "Clone of an Arabic Job Seeking website, adding the responsive feature, to render awesomely on mobile devices",
+    "img": "img/projectimg/700x450.gif"
+
+  },
+  {
+    "id": 4,
+    "project_id": "shopping",
+    "title": "Shopping App",
+    "subtitle": "A simple TODO App",
+    "summary": "This application is built with pure Javascript that displays a functionality of a simple todo application",
+    "img": "img/projectimg/700x450.gif"
+
+  }
+]
