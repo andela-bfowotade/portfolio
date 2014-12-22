@@ -1,5 +1,5 @@
 {
-   
+  
   "project_id": "googleclone",
   "title": "Google Clone",
     "subtitle": "A display of HTML CSS Skillset",
@@ -8,9 +8,6 @@
       "HTML",
       "CSS"
     ],
-    "image" : "",
-    "url": "http://andela-bfowotade.github.io/googleclone"
+    "image" : "img/projectimg/700x500.gif",
+    "url": "https://andela-bfowotade.github.io/googleclone"
 }
-  
-
-

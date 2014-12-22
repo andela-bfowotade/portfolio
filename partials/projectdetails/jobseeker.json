@@ -1,11 +1,14 @@
 
   {
+  	"project_id": "jobseeker",
     "title": "Job Seeker",
     "subtitle": "A display of HTML CSS Skillset",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Nam viverra euismod odio, gravida pellentesque urna varius vitae. 
-                    Sed dui lorem, adipiscing in adipiscing et, interdum nec metus.
-                    Mauris ultricies, justo eu convallis placerat, felis enim.",
-    "image" : ""
+    "description": "Clone of an Arabic Job Seeking website, adding the responsive feature, to render awesomely on mobile devices",
+    "languages": [
+      "HTML",
+      "CSS"
+    ],
+    "image" : "img/projectimg/700x500.gif",
+    "url": "https://andela-bfowotade.github.io/jobseeker"
   }
   

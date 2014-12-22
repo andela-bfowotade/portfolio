@@ -1,6 +1,18 @@
-var loadScreenshotService = angular.module('loadScreenshotService', []);
+var RepoFeed = angular.module('RepoFeed', []);
 
-loadScreenshotService.factory('screenShotFactory', ['$resource', function($resource) {
-	var urlEndpoint = 'https://www.screenshot-website.com/api/ak_WCw7Or01MD0QGAPiRJAw?url=';
-	return $resource(urlEndpoint);
-}])
+RepoFeed.factory('RepoFactory', ['$http', function($http) {
+
+  return{
+
+    searchRepos: function(repoName, callback) {
+      return  $http.get('https://api.github.com/repos/andela-bfowotade/'+ repoName)
+        .success(function (data) {
+          callback(data);
+        })
+        .error(function (e) {
+          callback(e);
+        });
+    }
+  }
+
+}]);

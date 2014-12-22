@@ -1,0 +1,13 @@
+{
+  "project_id": "shopping",
+  "title": "Shopping App",
+  "subtitle": "A simple TODO App",
+  "description": "This application is built with pure Javascript that displays a functionality of a simple todo application",
+   "languages": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "img": "img/projectimg/700x500.gif",
+  "url": "https://andela-bfowotade.github.io/shopping"
+}

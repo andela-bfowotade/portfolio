@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-lg-12">
       <h1 class="page-header">{{ project.title }}
-          <small ng-bind="project.subtitle"></small>
+          <small data-ng-bind="project.subtitle"></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="index.html">Home</a></li>
@@ -64,7 +64,20 @@
         <ul>
           <li data-ng-repeat="language in project.languages"> {{ language }}</li>
         </ul>
+
+        <h3>Goto Website</h3>
+        <a href="{{project.url}}" target="_blank"> {{project.url}}</a>
+        
+        <h3>Clone From Github</h3>
+        <form role="form">
+          <div class="form-group">
+            <label for="clone"><a data-ng-click="tabs = 1">Click to Clone Url</a></label>
+            <input data-ng-show="tabs == 1" type="text" value="{{gitData.clone_url}}" class="form-control" id="clone" 
+             >
+          </div>
+        </form>
       </div>
+      <!-- /.description -->
     
     </div>
     <!-- /.row -->
@@ -76,9 +89,9 @@
       <h3 class="page-header">Related Projects</h3>
     </div>
 
-    <div class="col-sm-3 col-xs-6" data-ng-repeat='screenshot in screenshots'>{{ screenshot.image }}
+    <div class="col-sm-3 col-xs-6" data-ng-repeat='webshot in webShots'>
       <a href="#">
-        <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
+        <img class="img-responsive img-hover img-related" ng-src="{{ webshot.image }}" alt="">
       </a>
     </div>
 

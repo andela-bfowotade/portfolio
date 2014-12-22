@@ -1,0 +1,15 @@
+{
+  "project_id": "hotorcold",
+  "title": "Hot or Cold App",
+  "subtitle": "Simple Javascript Game",
+  "description": "SImple game built with javascript, that allows a user to make guesses. If the user is close to the random hidden number 'he is hot' otherwise 'he is cold'",
+  "languages": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Jquery"
+  ],
+  "img": "img/projectimg/700x450.gif",
+  "url": "https://andela-bfowotade.github.io/hotorcold"
+
+}

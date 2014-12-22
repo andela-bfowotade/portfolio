@@ -1,10 +1,9 @@
   'use strict';
 var appPortfolio = angular.module('appPortfolio', [
       'ngRoute',
-      'ngResource',
       'projectApp',
       'AppFilter',
-      'loadScreenshotService'
+      'RepoFeed'
   ]);
 
 appPortfolio.config(function($routeProvider){

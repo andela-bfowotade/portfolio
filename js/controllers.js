@@ -67,15 +67,21 @@ projectApp.controller('ProjectDataCtrl', ['$scope', '$http',
 }]);
 
 	//controller to display current project in detail
-projectApp.controller('ProjectDetailCtrl', ['$scope', '$routeParams',  '$http', 'screenShotFactory',
-	function($scope, $routeParams, $http, screenShotFactory) {
+projectApp.controller('ProjectDetailCtrl', ['$scope', '$routeParams',  '$http', 'RepoFactory',
+	function($scope, $routeParams, $http, RepoFactory) {
 		var url = 'partials/projectdetails/' + $routeParams.project_id + '.json';
 		$http.get(url).success(function(data) {
 		$scope.project = data;
 
-		$scope.screenshots = screenShotFactory.query();
+		//get github data for the specific repo
+		$scope.gitData = [];
+		$scope.repoName = $routeParams.project_id;
+		RepoFactory.searchRepos($scope.repoName, function(data) {
+			
+				$scope.gitData = data;
+			
 	});
 
-}]);
+});
 
-ak_WCw7Or01MD0QGAPiRJAw
+}]);
