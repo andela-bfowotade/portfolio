@@ -74,14 +74,12 @@ projectApp.controller('ProjectDetailCtrl', ['$scope', '$routeParams',  '$http', 
 		$scope.project = data;
 
 		//get github data for the specific repo
-		$scope.gitData = [];
-		$scope.repoName = $routeParams.project_id;
-		RepoFactory.searchRepos($scope.repoName, function(data) {
-			
+			$scope.gitData = [];
+			$scope.repoName = $routeParams.project_id;
+			RepoFactory.searchRepos($scope.repoName, function(data) {
 				$scope.gitData = data;
-			
-	});
+			});
 
-});
+		});
 
 }]);

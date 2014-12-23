@@ -10,7 +10,10 @@
     "Ajax",
     "Jquery"
   ],
-  "img": "img/projectimg/700x500.gif",
+  "image" : [
+    "img/projectimg/soundbounce/soundbounce_750x500x2.png"
+  ],
+  "mainImg": "img/projectimg/soundbounce/soundbounce_750x500.png",
   "url": "https://andela-bfowotade.github.io/soundbounce"
 
 }

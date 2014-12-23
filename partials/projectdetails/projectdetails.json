@@ -5,7 +5,7 @@
     "title": "Google Clone",
     "subtitle": "A display of HTML CSS Skillset",
     "summary": "Inspired by The Giant of the Web(Google). Here's a simple clone of the website. Google’s mission is to organize the world’s information and make it universally accessible and useful.",
-    "img": "img/projectimg/700x450.gif"
+    "img": "img/projectimg/googleclone/googleclone_700x450.png"
 
   },
   {
@@ -14,7 +14,7 @@
     "title": "Job Seeker Clone",
     "subtitle": "A display of HTML CSS and Responsiveness",
     "summary": "Clone of an Arabic JOb Seeking website, adding the responsive feature, to render awesomely on mobile devices",
-    "img": "img/projectimg/700x450.gif"
+    "img": "img/projectimg/jobseeker/jobseeker_700x450.png"
 
   },
   {
@@ -23,7 +23,7 @@
     "title": "Hot or Cold App",
     "subtitle": "Simple Javascript Game",
     "summary": "SImple game built with javascript, that allows a user to make guesses. If the user is close to the random hidden number 'he is hot' otherwise 'he is cold'",
-    "img": "img/projectimg/700x450.gif"
+    "img": "img/projectimg/hotorcold/hotorcold_700x450.png"
 
   },
   {
@@ -32,7 +32,7 @@
     "title": "Shopping App",
     "subtitle": "A simple TODO App",
     "summary": "This application is built with pure Javascript that displays a functionality of a simple todo application",
-    "img": "img/projectimg/700x450.gif"
+    "img": "img/projectimg/shopping/shopping_700x450.png"
 
   },
   {
@@ -41,7 +41,7 @@
     "title": "Sound Bounce",
     "subtitle": "Consumes Soundclouds and Webhose's API",
     "summary": "With the service of soundcloud, a user can search for songs of their choice and listen online, with an option to download, if its downloadable, while the Webhose helps to fetch news related to the search",
-    "img": "img/projectimg/700x450.gif"
+    "img": "img/projectimg/soundbounce/soundbounce_700x450.png"
 
   },
   {
@@ -50,7 +50,7 @@
     "title": "instaMe",
     "subtitle": "Powered by Instagram",
     "summary": "InstaMe is an application which uses instagrams api to display photos related to your search. This app only fetches by tag names, you can visit back later for a version that searches by username.",
-    "img": "img/projectimg/700x450.gif"
+    "img": "img/projectimg/instaMe/instaMe_700x450.png"
 
   }
 ]

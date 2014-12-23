@@ -2,15 +2,19 @@
   
   "project_id": "instaMe",
   "title": "InstaMe",
-    "subtitle": "A display of HTML CSS Skillset",
-    "description": "InstaMe is an application which uses instagrams api to display photos related to your search. This app only fetches by tag names, you can visit back later for a version that searches by username.",
-    "languages": [
-      "HTML",
-      "CSS",
-      "Ajax",
-      "Javascript",
-      "Jquery"
-    ],
-    "image" : "img/projectimg/700x500.gif",
-    "url": "https://andela-bfowotade.github.io/InstaMe"
+  "subtitle": "A display of HTML CSS Skillset",
+  "description": "InstaMe is an application which uses instagrams api to display photos related to your search. This app only fetches by tag names, you can visit back later for a version that searches by username.",
+  "languages": [
+    "HTML",
+    "CSS",
+    "Ajax",
+    "Javascript",
+    "Jquery"
+  ],
+  "image" : [
+    "img/projectimg/instaMe/instaMe_750x500x2.png",
+    "img/projectimg/instaMe/instaMe_750x500x3.png"
+  ],
+  "mainImg": "img/projectimg/instaMe/instaMe_750x500.png",
+  "url": "https://andela-bfowotade.github.io/instaMe"
 }
