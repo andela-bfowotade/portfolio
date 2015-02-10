@@ -1,138 +1,138 @@
 
    <!-- Header -->
     <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To My Portfolio!</div>
-                <div class="intro-heading">It's Awesome to View The Awesome.</div>
-                <a href="#/services" class="page-scroll btn btn-xl">Take a Tour</a>
-            </div>
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">Welcome To My Portfolio!</div>
+          <div class="intro-heading">CODE IS POETRY, EMBRACE IT! </div>
+          <a href="#/portfolio" class="page-scroll btn btn-xl">Take a Tour</a>
         </div>
+      </div>
     </header>
 
     <!-- Page Content -->
     <div class="container">
 
-        <!-- Marketing Icons Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">
-                    What would you like to know
-                </h1>
+      <!-- Marketing Icons Section -->
+      <div class="row">
+          <div class="col-lg-12">
+            <h1 class="page-header">
+                What would you like to know
+            </h1>
+          </div>
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4><i class="fa fa-fw fa-check"></i> Career</h4>
+              </div>
+              <div class="panel-body">
+                <p>I currently work with Andela Institute. Andela is a talent accelarator that trains youth how to write code</p>
+                <a href="https://facebook.com/tinnys1" class="btn btn-default">Facebook</a>
+              </div>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+              </div>
+              <div class="panel-body">
+                <p>All projects you see here are written by me as projects and they are all free and open source</p>
+                  <a href="https://twitter.com/jihdehS" class="btn btn-default">Twitter</a>
+              </div>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
-                    </div>
-                    <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
+          </div>
+          <div class="col-md-4">
+            <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                  </div>
+                  <div class="panel-body">
+                      <p>Some projects here, consume api's from instagram, soundcloud, github. But they are easy to customize</p>
+                      <a href="http://instagram.com/iam_jihdeh" class="btn btn-default">Instagram</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- /.row -->
 
-        <!-- Portfolio Section CONTROLLER -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Portfolio Heading</h2>
-            </div>
-            <div class="col-md-4 col-sm-6" data-ng-repeat="project in projects">
-                <a href="portfolio-item.html/:id">
-                    <img class="img-responsive img-portfolio img-hover" ng-src="{{ project.img }}" alt="">
-                </a>
-            </div>
-        </div>
-        <!-- /.row -->
+      <!-- Portfolio Section CONTROLLER -->
+      <div class="row">
+          <div class="col-lg-12">
+              <h2 class="page-header">Portfolio Gallery</h2>
+          </div>
+          <div class="col-md-4 col-sm-6" data-ng-repeat="project in projects">
+              <a href="#/pt-detail/{{project.project_id}}">
+                  <img class="img-responsive img-portfolio img-hover" ng-src="{{ project.img }}" alt="">
+              </a>
+          </div>
+      </div>
+      <!-- /.row -->
 
-        <!-- Features Section -->
-        <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Me, Myself and I</h2>
-                    <h3 class="section-subheading text-muted">The Screen behind the scene.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/msmallair.jpg" class="img-responsive img-circle" alt="">
-                        <h4>My Pc</h4>
-                        <p class="text-muted">Lead Workstation</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/22.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Babajide Fowotade</h4>
-                        <p class="text-muted">Lead Designer/Developer</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/drebeats.jpg" class="img-responsive img-circle" alt="">
-                        <h4>My Headphones</h4>
-                        <p class="text-muted">Lead Motivator</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">I am most inspired by animals, most especially dogs and kittens. I love music, and coding. I belive everything is possible, so far you can think it; It may take a while to build, but it is possible.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+      <!-- Features Section -->
+      <!-- Team Section -->
+  <section id="team" class="bg-light-gray">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Me, Myself and I</h2>
+                  <h3 class="section-subheading text-muted">The Screen behind the scene.</h3>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-4">
+                  <div class="team-member">
+                      <img src="img/msmallair.jpg" class="img-responsive img-circle" alt="">
+                      <h4>My Pc</h4>
+                      <p class="text-muted">Lead Workstation</p>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="team-member">
+                      <img src="img/22.jpg" class="img-responsive img-circle" alt="">
+                      <h4>Babajide Fowotade</h4>
+                      <p class="text-muted">Lead Designer/Developer</p>
+                      <ul class="list-inline">
+                          <li><a href="https://facebook.com/jihdeh"><i class="fa fa-2x fa-facebook-square"></i></a>
+                          </li>
+                          <li><a href="https://www.linkedin.com/in/babajidefowotade"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                          </li>
+                          <li><a href="https://twitter.com/jihdehS"><i class="fa fa-2x fa-twitter-square"></i></a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="team-member">
+                      <img src="img/drebeats.jpg" class="img-responsive img-circle" alt="">
+                      <h4>My Headphones</h4>
+                      <p class="text-muted">Lead Motivator</p>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <p class="large text-muted">I am most inspired by animals, most especially dogs and kittens. I love music, and coding. I belive everything is possible, so far you can think it; It may take a while to build, but it is possible.</p>
+              </div>
+          </div>
+      </div>
+  </section>
 
-        <hr>
-        
-        <!-- Call to Action Section -->
-        <div class="well">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#/home">Send a Quick Message</a>
-                </div>
-            </div>
-        </div>
+      <hr>
+      
+      <!-- Call to Action Section -->
+      <div class="well">
+          <div class="row">
+              <div class="col-md-8">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+              </div>
+              <div class="col-md-4">
+                  <a class="btn btn-lg btn-default btn-block" href="#/home">Send a Quick Message</a>
+              </div>
+          </div>
+      </div>
 
-        <!-- /.row -->
+      <!-- /.row -->
 
-        </div>
+    </div>
     <!-- /.container -->

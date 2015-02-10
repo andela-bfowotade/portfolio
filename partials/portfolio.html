@@ -2,6 +2,7 @@
     <!-- Page Content -->
     <div class="container">
 
+<<<<<<< HEAD
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
@@ -137,3 +138,55 @@
             </div>
         </div>
         <!-- /.row -->
+=======
+      <!-- Page Heading/Breadcrumbs -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Portfolio Gallery
+            <small>browse through my list of projects</small>
+          </h1>
+          <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li class="active">One Column Portfolio</li>
+          </ol>
+        </div>
+      </div>
+        <!-- /.row -->
+
+      <!-- Project One -->
+      <div  data-ng-repeat="project in projects | pagination : currentPage*itemsPerPage | limitTo: itemsPerPage">
+      <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <a href="#/pt-detail/{{project.project_id}}">
+              <img class="img-responsive img-hover" ng-src="img/projectimg/{{project.project_id}}/700x300.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3 data-ng-bind="project.title"></h3>
+            <h4 data-ng-bind="project.subtitle"></h4>
+            <p data-ng-bind="project.summary"></p>
+            <a class="btn btn-primary" href="#/pt-detail/{{project.project_id}}">View Project</i></a>
+          </div>
+        </div>
+        </div>
+      <!-- /.row -->
+
+        <hr>
+
+        <!-- paginated numbers -->
+      <div class="pagination-div">
+        <ul class="pagination">
+          <li ng-class="DisablePrevPage()">
+            <a href ng-click="prevPage()">« Prev</a>
+          </li>
+          <li ng-repeat="n in range()" ng-class="{active: n == currentPage}" ng-click="setPage(n)">
+            <a href="">{{n+1}}</a>
+          </li>
+          <li ng-class="DisableNextPage()">
+            <a href ng-click="nextPage()">Next »</a>
+          </li>
+        </ul>
+      </div>
+        <!-- Pagination -->
+>>>>>>> gh-pages

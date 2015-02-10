@@ -1,0 +1,19 @@
+{
+  "project_id": "soundbounce",
+  "title": "Sound Bounce",
+  "subtitle": "Consumes Soundclouds and Webhose's API",
+  "description": "With the service of soundcloud, a user can search for songs of their choice and listen online, with an option to download, if its downloadable, while the Webhose helps to fetch news related to the search",
+   "languages": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Ajax",
+    "Jquery"
+  ],
+  "image" : [
+    "img/projectimg/soundbounce/soundbounce_750x500x2.png"
+  ],
+  "mainImg": "img/projectimg/soundbounce/soundbounce_750x500.png",
+  "url": "https://andela-bfowotade.github.io/soundbounce"
+
+}
