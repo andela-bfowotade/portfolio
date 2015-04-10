@@ -66,7 +66,7 @@ projectApp.controller('ProjectDataCtrl', ['$scope', '$http',
 
 }]);
 
-	//controller to display current project in detail
+	//controller to display current p roject in detail
 projectApp.controller('ProjectDetailCtrl', ['$scope', '$routeParams',  '$http', 'RepoFactory',
 	function($scope, $routeParams, $http, RepoFactory) {
 		var url = 'partials/projectdetails/' + $routeParams.project_id + '.json';
